@@ -1,12 +1,12 @@
-<!--My File-->
+
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>audrey's website</title>
+        <title>audreys website</title>
         <style>
             body {
-                background: rgb(225, 197, 230);
-                color: rgb(45, 45, 45);
+                background: rgb(207, 249, 253);
+                color: rgb(70, 39, 39);
                 padding: 10px;
                 font-family: arial;
             }
@@ -17,15 +17,18 @@
          
             /* navigation menu */
             nav {
-                background: rgb(210, 152, 255);
+                background: rgb(220, 146, 249);
                margin: 0 auto;
+               margin-bottom: 20px;
                 display: flex;
                 padding: 10px;
+                border: 2px solid red;
+                 border-radius: 25px;
             }
             h1 {
                 display: flex;
                 align-items: center;
-                color: rgb(98, 11, 118);
+                color: rgb(0, 8, 255);
                 flex: 1;
                 margin: 0;
             }
@@ -38,12 +41,12 @@
             }
             a {
                 text-decoration: none;
-                color: rgb(0, 0, 0);
+                color: rgb(38, 24, 24);
             }
          
             /* main container area beneath menu */
             main {
-                background: rgb(245, 238, 219);
+                background: rgb(255, 186, 186);
                 display: flex;
             }
             .sidebar {
@@ -58,63 +61,54 @@
                 padding: 15px;
             }
             #interests {
-                border: 4px silver ridge;
+                border: 4px rgb(218, 47, 47) ridge;
                 padding: 8px;
             }
             h2, h3 {
                 margin: 0px;
             }
          </style>
-         
+
     </head>
+
     
     <body>
-
-        </div>
-        <h2>Audrey Riccobono</h2>
-        <p>Student at MHS</p>
+        <!-- Visible HTML elements GO HERE  -->
+        <!-- All content goes here -->
         <div id="all-contents">
 
-        </div>
             <nav>
-                <h1>Audrey's cool website</h1>
-                <ul id="nav-ul"></ul>
-                    <li class="nav-li"><!--  --></li>
+                <h1>audreys website</h1>
+                <ul id="nav-ul">
+                    <li id="nav-ul">
                         <a href="index.html"> Home </a>
                     </li>
-
-                    <li>
+                    <li class="nav-li">
                         <a href="portfolio.html"> Portfolio </a>
-                    </li>
+                      </li>
                 </ul>
 
             </nav>
 
             <main>
-                    <!-- Sidebar section -->
-                    <div>
-
-                    </div>
-                    <!-- Content section -->
-                    <div#all-contents {
-                        max-width: 800px;
-                        margin: auto;
-                        }</div>
-                    </div>
-                    <h2></h2>
-                    <p></p>
+                <!-- Sidebar section -->
+                <div class="sidebar">
+                    <img class="sidebar-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/MiltonHighRes-5.jpg/227px-MiltonHighRes-5.jpg">
+                </div>
+                <!-- Content section -->
+                <div class="content" >
+                    <h2>Audrey Riccobono</h2> 
+                    <p>Student at MHS</p>
                     <!-- Interests section -->
-                    <div>
+                    <div id="interests">
                         <h3>Interests</h3>
                         <ul>
-                            <li>I like ice cream</li>
+                            <li>I love ice cream</li>
                             <li>I do cheer</li>
                             <li>I have a goldendoodle</li>
                         </ul>
-                     <!-- Sidebar section -->
-                     <div>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/MiltonHighRes-5.jpg/227px-MiltonHighRes-5.jpg">
-                     </div>
+                    </div>
+                </div>
             </main>
         </div>
     </body>
