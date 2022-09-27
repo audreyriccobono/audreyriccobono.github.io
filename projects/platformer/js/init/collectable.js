@@ -39,10 +39,13 @@
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
 
     // example:
-    createCollectable(type.steve, 200, 170, 6, 0.7);
+    createCollectable(type.kennedi, 200, 170, 6, 0.7);
+    createCollectable(type.steve, 100, 500, 8, 0.5)
+    createCollectable(type.grace, 100,10)
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
   }
   collectable.init = init;
 })(window);
+s
