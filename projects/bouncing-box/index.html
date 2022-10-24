@@ -72,9 +72,16 @@
 			turn it around! 
 			*/
 			function update() {
-				positionX = positionX + 10;
+				positionX = positionX + speed;
 				moveBoxTo(positionX);
-				speed();
+				
+				if (positiveX > boardWidth){
+					speed = -speed
+				}
+				else if (positionX < 0){
+					speed = speed * -1
+				}
+
 		
 			};
 
@@ -86,7 +93,7 @@
 			function handleBoxClick() {
 				positionX = 0;
 				points = points + 1;
-				positionX = speed + 3;
+				speed = speed + 3;
 				changeBoxText(points);
 
 			};
